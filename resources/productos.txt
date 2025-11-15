@@ -1,0 +1,5 @@
+Salmon Atlantico;2000;Amanecer;Osorno
+Salmon Coho;1600;Atardecer;Llanquihue
+Trucha Arcoiris;1200;Alba;Aysen;
+Salmon Chinook;800;Ocaso;Coyhaique
+Salmón Rojo;300;Luz;Palena
