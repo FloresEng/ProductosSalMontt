@@ -1,7 +1,8 @@
 package cl.duoc.productossalmontt.model;
 
-/** Clase que contiene los distintos tipo de salmón, su peso,
- *  centro de producción y lugar de origen */
+/** Clase que representa los distintos tipo de salmón, su peso disponible,
+ *  el centro de producción y lugar de origen
+ */
 public class Salmones {
 
     private String tipoSalmon;
@@ -13,7 +14,13 @@ public class Salmones {
     public Salmones(){
 
     }
-    //constructor con parámetros
+    /**
+     * Constructor de objeto salmones con atributos inicializados
+     * @param tipoSalmon nombre del tipo de salmón
+     * @param kg cantidad disponible de salmón en Kg
+     * @param criadero centro de cultivo del salmón
+     * @param provincia lugar de procedencia
+     */
     public Salmones(String tipoSalmon, int kg, String criadero, String provincia){
         setTipoSalmon(tipoSalmon);
         setKg(kg);

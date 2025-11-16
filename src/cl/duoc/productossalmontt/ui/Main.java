@@ -7,8 +7,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-/**Clase ejecutable de clases y metodos para leer, almacenar e
- * imprimir datos desde una fuente de texto
+/**Clase principal que ejecuta la aplicación.
+ * carga datos de los productos desde un archivo de texto,
+ * los almacena en una lista y luego los imprime por consola.
  */
 public class Main {
 

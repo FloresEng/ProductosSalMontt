@@ -1,15 +1,14 @@
 package cl.duoc.productossalmontt.data;
 
 import cl.duoc.productossalmontt.model.Salmones;
-
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-/** Clase que se encarga de leer archivo txt, desglosarlo y almacenar los datos
- * para posteriormente imprimirlos
+/** Clase que se encarga de leer archivo txt ubicado en el classpath.
+ * Convierte cada línea del archivo en objetos
  */
 public class GestorDatos {
 
